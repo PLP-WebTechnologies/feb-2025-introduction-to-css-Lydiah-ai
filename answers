@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+    <header id="main-header">
+        <h1>Welcome to My Styled Page</h1>
+    </header>
+    <section class="content">
+        <p>Hello! This is an example of a styled webpage using external CSS. Enjoy the aesthetics!</p>
+        <img src="example-image.jpg" alt="Beautiful Example" class="styled-image">
+    </section>
+    <footer>
+        <p>&copy; 2025 Styled Page. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+/* General reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Styling the header using an ID */
+#main-header {
+    background-color: #4caf50; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #333;
+}
+
+/* Styling content section using a class */
+.content {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the image */
+.styled-image {
+    display: block;
+    margin: 20px auto;
+    width: 100%; /* Make it responsive */
+    max-width: 300px;
+    border: 5px solid #4caf50;
+    border-radius: 10px;
+}
+
+/* Styling the footer using an element selector */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 3px solid #4caf50;
+}
